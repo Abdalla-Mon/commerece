@@ -26,7 +26,7 @@ export function AboutTeam() {
       job: "Intern Designer      ",
     },
     {
-      img: "/imgs/team2.png",
+      img: "./e-commerece/imgs/team2.png",
       heading: "Osama Mohamed",
       job: "Intern Designer      ",
     },
