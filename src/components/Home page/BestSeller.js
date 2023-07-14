@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card } from "./SellerCard";
 import { ShoppingBtn } from "./LandingPage";
-
+import "";
 export function BestSeller() {
   let [data, setData] = useState([]);
   useEffect(() => {
