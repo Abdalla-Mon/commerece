@@ -1,0 +1,40 @@
+@use "../../variables/varibles" as *;
+
+.c-color {
+  color: $primary-color !important;
+  &::after {
+    background-color: $primary-color !important;
+  }
+}
+
+.about-team {
+  padding: 100px 0;
+
+  background-color: $secondary-color;
+
+  .team-member {
+    margin-bottom: 25px;
+
+    .tm {
+      text-align: center;
+      background-color: $primary-color;
+      color: $teritary-color;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 6px 6px 0px 0px #594545;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      &:hover {
+        box-shadow: -6px 6px 0px 0px #594545;
+        transform: translate(10px, -10px);
+        -webkit-transform: translate(10px, -10px);
+        -moz-transform: translate(10px, -10px);
+        -ms-transform: translate(10px, -10px);
+        -o-transform: translate(10px, -10px);
+      }
+    }
+  }
+}

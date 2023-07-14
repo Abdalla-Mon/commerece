@@ -1,0 +1,95 @@
+@use "../../variables//varibles" as *;
+
+footer {
+  @media (max-width: 575px) {
+    text-align: center;
+  }
+  padding: 60px 0;
+  background-color: $accent-color;
+  color: $primary-color;
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $primary-color;
+  .logo {
+    h3 {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+  }
+  .logo-i {
+    h1 {
+      margin-bottom: 8px;
+    }
+    a {
+      color: $primary-color;
+    }
+    span {
+      color: $accent-color;
+      background-color: $primary-color;
+    }
+  }
+  ul {
+    padding-left: 0;
+    li {
+      text-transform: capitalize;
+      cursor: pointer;
+      &:hover {
+        color: #c4beb2;
+      }
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+  }
+
+  form {
+    input {
+      display: block;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+      &::placeholder {
+        color: $primary-color;
+        opacity: 0.6;
+      }
+      &:first-child {
+        @media (max-width: 575px) {
+          margin: auto;
+          text-align: center;
+          border-left: none;
+        }
+        background-color: transparent;
+        border: none;
+        color: $primary-color;
+        border-left: 1px solid $primary-color;
+        padding-left: 6px;
+      }
+    }
+    .btn {
+      color: $primary-color;
+      margin-top: 10px;
+      background-color: $teritary-color;
+    }
+  }
+}
+.mine {
+  padding: 15px;
+  text-align: center;
+  color: $primary-color;
+  background-color: $accent-color;
+  a {
+    color: #deefff;
+    &:hover {
+      color: #d5ffa5;
+    }
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+}

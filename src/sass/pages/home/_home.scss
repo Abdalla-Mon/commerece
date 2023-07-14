@@ -1,0 +1,86 @@
+@use "../../variables/varibles" as *;
+
+.landing-page {
+  background-color: $primary-color;
+  min-height: calc(100vh - 60px);
+  height: auto;
+  display: flex;
+  align-items: center;
+  @media (max-width: 767px) {
+    padding: 20px 0;
+  }
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .landing-text {
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+      h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        color: $accent-color;
+      }
+      p {
+        color: $teritary-color;
+      }
+    }
+    .landing-img {
+      @media (min-width: 768px) {
+        width: 48%;
+        margin-left: 2%;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 15px 0;
+      background-color: $secondary-color;
+      border-radius: 0 0 0 100px;
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+.text-btn {
+  height: 44px;
+  display: flex;
+  margin-bottom: 5px;
+
+  a {
+    border: 1px solid;
+    transition: 0.3s;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: $accent-color;
+    font-weight: bold;
+    &:hover {
+      background-color: $accent-color;
+      color: $primary-color;
+      border: none;
+    }
+    &.shop-btn {
+      border: none;
+      background-color: $accent-color;
+      margin-right: 10px;
+      color: $primary-color;
+      &:hover {
+        background-color: $teritary-color;
+        color: $primary-color;
+      }
+    }
+  }
+}

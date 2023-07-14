@@ -1,0 +1,172 @@
+@use "../variables/varibles" as *;
+@use "../helpers/animation" as *;
+.checkout {
+  background-color: $secondary-color;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    color: $primary-color;
+  }
+  .container {
+    padding-bottom: 40px;
+  }
+  .checkout-content {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
+  }
+  .order-container {
+    @media (min-width: 768px) {
+      width: 48%;
+      margin-top: 20px;
+      height: fit-content;
+      margin-bottom: auto;
+    }
+    background-color: $primary-color;
+    text-transform: capitalize;
+    color: $teritary-color;
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+    .order {
+      padding: 15px 10px;
+      align-items: center;
+      border-bottom: 1px solid $accent-color;
+      &:first-child {
+        color: $accent-color !important;
+      }
+    }
+    p {
+      margin-right: 2px;
+      margin-bottom: 0;
+    }
+    span {
+      color: red;
+    }
+  }
+
+  form {
+    h3 {
+      @media (max-width: 767px) {
+        margin: 40px 0 20px;
+      }
+    }
+    input {
+      padding: 6px;
+      width: 100%;
+      border: unset;
+      margin-bottom: 5px;
+      padding-left: 10px;
+      background-color: $primary-color;
+      color: $accent-color;
+      &:focus {
+        outline: none;
+      }
+    }
+    select {
+      width: 100%;
+      padding: 6px;
+      margin-bottom: 5px;
+      background-color: $primary-color;
+      color: $accent-color;
+      border: unset;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    @media (min-width: 768px) {
+      width: 50%;
+      label {
+        width: 48%;
+      }
+      select {
+        width: 98% !important;
+      }
+
+      .street,
+      .town,
+      .postcode,
+      .phone {
+        display: inline;
+      }
+      .street,
+      .postcode {
+        margin-right: 1%;
+      }
+      .email {
+        width: 100%;
+        label {
+          width: 100%;
+        }
+      }
+      .name {
+        label {
+          &:first-child {
+            margin-right: 2%;
+          }
+        }
+      }
+    }
+    color: $primary-color;
+    span {
+      color: red;
+    }
+    @media (max-width: 767px) {
+      label {
+        width: 100%;
+      }
+    }
+  }
+  button {
+    margin-top: 10px;
+    border: none;
+    padding: 8px 16px;
+    background-color: $accent-color;
+    color: $primary-color;
+    &:hover {
+      box-shadow: -6px 6px 0 0 $primary-color;
+      transform: translate(10px, -10px);
+      -webkit-transform: translate(10px, -10px);
+      -moz-transform: translate(10px, -10px);
+      -ms-transform: translate(10px, -10px);
+      -o-transform: translate(10px, -10px);
+    }
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+}
+
+.checkout-done {
+  position: fixed;
+  z-index: 500;
+  top: 20%;
+  left: 2%;
+  background-color: $accent-color;
+  padding: 20px;
+
+  p {
+    background-color: $primary-color;
+    color: $accent-color;
+    width: fit-content;
+    padding: 10px;
+    font-weight: bold;
+  }
+  animation: show-left linear 1s forwards;
+  -webkit-animation: show-left linear 1s forwards;
+}
+.empty-check {
+  height: 100vh;
+  background-color: $secondary-color;
+  font-weight: bold;
+  text-align: center;
+  color: $primary-color;
+  padding-top: 20px;
+}

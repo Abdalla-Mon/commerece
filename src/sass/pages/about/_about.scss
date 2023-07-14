@@ -1,0 +1,59 @@
+@use "../../variables//varibles" as *;
+@use "../../helpers/helpers";
+// start of about landing
+.fixed-landing {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-attachment: fixed;
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(89 69 69 / 50%);
+    height: 100%;
+    z-index: 1;
+  }
+  .not-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 12;
+    position: relative;
+    color: $primary-color;
+    .fixed-text {
+      text-align: center;
+
+      max-width: 400px;
+    }
+  }
+}
+.about-landing {
+  background-image: url("/public/imgs/about-landing.jpg");
+}
+// start of about swiper
+.about {
+  .container {
+    h2 {
+      color: $accent-color;
+      position: relative;
+      margin-top: -40px;
+      margin-bottom: 40px;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: $accent-color;
+        width: 100px;
+        height: 4px;
+        left: 4px;
+        top: -10px;
+      }
+    }
+  }
+  // about swiper located in "./liberaries/swiper.scss"
+}

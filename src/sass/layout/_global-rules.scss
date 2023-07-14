@@ -1,0 +1,22 @@
+@use "../variables/varibles" as *;
+p {
+  line-height: 1.6;
+}
+li {
+  list-style: none;
+}
+.loader {
+  height: calc(100vh - 60px);
+  width: 100vh;
+  background-color: $primary-color;
+  color: $accent-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.loading-product {
+  background-color: $primary-color;
+  height: 100vh;
+}

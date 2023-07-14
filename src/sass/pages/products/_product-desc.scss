@@ -1,0 +1,106 @@
+@use "../../variables/varibles" as *;
+
+.product {
+  padding: 80px 0 0;
+  background-color: $primary-color;
+  > .container {
+    padding-bottom: 80px;
+  }
+  .sl-product {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .img-container {
+      @media (min-width: 768px) {
+        margin-right: 20px;
+        height: 400px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .product-text {
+      color: $teritary-color;
+      @media (min-width: 768px) {
+        width: 55%;
+      }
+      .cat {
+        text-transform: capitalize;
+        margin-top: 10px;
+        display: block;
+      }
+      h2,
+      h5 {
+        color: $accent-color !important;
+        text-transform: capitalize;
+      }
+      h2 {
+        margin: 12px 0;
+      }
+      .product-btn {
+        padding-bottom: 10px;
+        border-bottom: 1px solid;
+        button {
+          width: 200px;
+          border: none;
+          color: $primary-color;
+          background-color: $accent-color;
+          font-weight: bold;
+          padding: 5px;
+
+          &:hover {
+            color: $teritary-color;
+          }
+          transition: 0.3s;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          -o-transition: 0.3s;
+        }
+      }
+      h5 {
+        margin-top: 10px;
+      }
+    }
+  }
+  .related {
+    padding: 80px 0;
+    background-color: $secondary-color;
+    h2 {
+      padding: 20px;
+      color: $primary-color;
+    }
+  }
+}
+.cart-pop {
+  padding: 10px 15px;
+  background-color: $accent-color;
+  color: $primary-color;
+  display: inline;
+  position: absolute;
+  top: 5px;
+  transition: 0.3;
+  -webkit-transition: 0.3;
+  -moz-transition: 0.3;
+  -ms-transition: 0.3;
+  -o-transition: 0.3;
+  animation: showPopup 3s ease-in-out forwards;
+  -webkit-animation: showPopup 3s ease-in-out forwards;
+}
+
+@keyframes showPopup {
+  0% {
+    opacity: 0;
+    right: -50px;
+  }
+  40% {
+    opacity: 1;
+    right: 10px;
+  }
+  100% {
+    right: 10px;
+    opacity: 0;
+  }
+}

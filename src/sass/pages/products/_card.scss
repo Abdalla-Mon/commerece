@@ -1,0 +1,72 @@
+@use "../../variables/varibles" as *;
+
+.card {
+  overflow: hidden;
+  margin-bottom: 20px;
+  color: $teritary-color;
+  .img-container {
+    z-index: 20;
+
+    img {
+      cursor: pointer;
+    }
+    position: relative;
+
+    .cart-added {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      @media (min-width: 768px) {
+        display: none;
+      }
+      cursor: pointer;
+      svg {
+        cursor: pointer;
+        font-size: 18px;
+        color: $accent-color;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        &:hover {
+          color: $teritary-color;
+        }
+      }
+      @media (min-width: 768px) {
+        &:hover span {
+          display: block;
+        }
+      }
+      span {
+        display: none;
+
+        position: absolute;
+        left: -120px;
+        top: -5px;
+        width: 105px;
+        background-color: $primary-color;
+        padding: 4px 8px;
+        border-radius: 6px;
+        &::after {
+          content: "";
+          position: absolute;
+          right: -20px;
+          top: 7px;
+          border: 10px solid;
+          border-color: transparent transparent transparent $primary-color;
+        }
+      }
+    }
+    &:hover .cart-added {
+      display: block;
+    }
+  }
+  .cart-text {
+    text-transform: capitalize;
+    padding: 12px;
+    p {
+      font-weight: bold;
+    }
+  }
+}

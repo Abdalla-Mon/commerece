@@ -1,0 +1,39 @@
+@use "../../variables/varibles" as *;
+
+.contact-us {
+  .contact-landing {
+    background-image: url("/public/imgs/about-slider-3.jpg");
+    background-position: center;
+  }
+  .call-center {
+    padding: 80px 0 40px;
+    background-color: $secondary-color;
+    h2 {
+      margin-bottom: 40px;
+    }
+    h2,
+    h5 {
+      color: $primary-color;
+    }
+    .call {
+      margin-bottom: 25px;
+      background-color: $primary-color;
+      color: $teritary-color;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 12px 0px #594545;
+      h3 {
+        color: $accent-color;
+      }
+      h5 {
+        color: #0d6efd;
+      }
+    }
+  }
+  .contact-text {
+    @media (max-width: 767px) {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+}

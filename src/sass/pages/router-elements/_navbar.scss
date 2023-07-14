@@ -1,0 +1,78 @@
+@use "../../variables/varibles" as *;
+.navbar {
+  .cart-container {
+    position: relative;
+    .cart-counter {
+      position: absolute;
+      top: -13px;
+      right: 9px;
+      color: #594545;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  h1 {
+    @media (max-width: 767px) {
+      font-size: 1.3rem;
+    }
+  }
+  top: 0;
+  z-index: 1000000;
+  @media (min-width: 992px) {
+    height: 60px;
+  }
+  background-color: $primary-color;
+  border-bottom: 2px solid $teritary-color;
+
+  a {
+    text-transform: capitalize;
+    color: $teritary-color;
+    &.active {
+      color: $accent-color !important;
+      font-weight: bold;
+    }
+    &:hover {
+      color: $accent-color;
+    }
+  }
+  .nav-icons-mob {
+    margin-left: auto;
+    margin-right: 10px;
+    a {
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+}
+.logo-i {
+  @media (max-width: 767px) {
+    font-size: 1.3rem;
+  }
+  margin: 0;
+  color: $accent-color;
+  a {
+    color: $teritary-color;
+
+    text-decoration: none;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.9rem;
+  }
+  span {
+    background-color: $accent-color;
+    padding: 0 12px 2px;
+    color: $primary-color;
+    border-radius: 0;
+    margin-right: -4px;
+  }
+}
+.navbar-collapse {
+  .nav-icons-pc {
+    .cart-container {
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+}
