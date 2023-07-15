@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 let xArr = [];
 let cartMap = {};
 let cartArr = [];
@@ -42,7 +43,7 @@ export function Card({ arr, cont, clas, s = "" }) {
     <div className={clas} id={arr.id}>
       <div className="card">
         <div className="img-container">
-          <a href={"/products/" + arr.title}>
+          <Link href={"/products/" + arr.title}>
             {" "}
             <img
               onClick={() => {
@@ -54,7 +55,7 @@ export function Card({ arr, cont, clas, s = "" }) {
               src={s + arr.image}
               alt={arr.title}
             ></img>
-          </a>
+          </Link>
           <div
             className="cart-added"
             onClick={() => {
