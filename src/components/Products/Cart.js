@@ -107,7 +107,7 @@ export function Cart() {
                     <h3>Cart totals</h3>
                     <p>Total : {money.toFixed(2)}$</p>
                     <Link
-                      to={"/cart/checkout"}
+                      to={"/commerece/cart/checkout"}
                       onClick={() => {
                         document.querySelector(".cart-updater").click();
                         handlingCheckOut();
@@ -197,11 +197,7 @@ function MobileTbody({ e, conut, handle, inc, dec, remove }) {
             <span onClick={(e) => remove(e)}>x</span>
           </td>
           <td className="pro-img">
-            <img
-              src={"../" + e.image}
-              style={{ width: "100px" }}
-              alt={e.title}
-            ></img>
+            <img src={e.image} style={{ width: "100px" }} alt={e.title}></img>
           </td>
           <td className="pro-title">
             <p className="d-md-none">Product</p>

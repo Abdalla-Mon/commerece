@@ -71,7 +71,7 @@ function NavLinks() {
 function links(navEle) {
   if (navEle === "home") {
     return (
-      <NavLink className="nav-link" to={"/commerece/home"}>
+      <NavLink className="nav-link" to={"/home"}>
         {navEle}
       </NavLink>
     );

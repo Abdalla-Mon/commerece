@@ -27,7 +27,7 @@ library.add(fas, far, fab);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter basename="/commerece">
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <App />
     </HashRouter>
   </React.StrictMode>
