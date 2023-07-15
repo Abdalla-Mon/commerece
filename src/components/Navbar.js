@@ -71,19 +71,19 @@ function NavLinks() {
 function links(navEle) {
   if (navEle === "home") {
     return (
-      <NavLink className="nav-link" to={"/home"}>
+      <NavLink className="nav-link" to={"/commerece/home"}>
         {navEle}
       </NavLink>
     );
   } else if (navEle === "products") {
     return (
-      <NavLink className="nav-link" to={"/" + navEle + "/page-1"}>
+      <NavLink className="nav-link" to={"/commerece/" + navEle + "/page-1"}>
         {navEle}
       </NavLink>
     );
   } else {
     return (
-      <NavLink className="nav-link" to={"/" + navEle}>
+      <NavLink className="nav-link" to={"/commerece/" + navEle}>
         {navEle}
       </NavLink>
     );

@@ -43,7 +43,7 @@ export function Card({ arr, cont, clas, s = "" }) {
     <div className={clas} id={arr.id}>
       <div className="card">
         <div className="img-container">
-          <Link href={"/products/" + arr.title}>
+          <Link to={"/products/:productId/" + arr.title}>
             {" "}
             <img
               onClick={() => {

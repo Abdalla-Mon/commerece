@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./sass/App.css";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -27,9 +27,9 @@ library.add(fas, far, fab);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/commerece">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

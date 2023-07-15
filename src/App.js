@@ -9,7 +9,6 @@ import { About } from "./components/About/About";
 import { ContactUs } from "./components/ContactUs/ContactUs";
 import { Checkout } from "./components/Products/Checkout";
 import { Loader } from "./components/Loader";
-
 export default function App() {
   return (
     <Routes>
@@ -22,7 +21,7 @@ export default function App() {
           <Route path={"page-3"} element={<Page3></Page3>}></Route>
         </Route>
         <Route
-          path="products/:productId"
+          path="products/:productId/description"
           element={<SelectedProduct></SelectedProduct>}
         ></Route>
         <Route path="cart" element={<Cart></Cart>}></Route>
