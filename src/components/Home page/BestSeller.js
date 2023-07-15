@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { Card } from "./SellerCard";
 import { ShoppingBtn } from "./LandingPage";
-import "";
+import newData from "../../storeObj.json";
 export function BestSeller() {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/storeObj.json")
+    fetch("e-commerece/storeObj.json")
       .then((e) => e.json())
       .then((ele) => setData(ele));
   }, []);
