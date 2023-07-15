@@ -25,7 +25,7 @@ export default function App() {
           element={<SelectedProduct></SelectedProduct>}
         ></Route>
         <Route path="cart" element={<Cart></Cart>}></Route>
-        <Route path="/cart/checkout" element={<Checkout></Checkout>}></Route>
+        <Route path="cart/checkout" element={<Checkout></Checkout>}></Route>
         <Route path="about" element={<About></About>}></Route>
         <Route path="contact" element={<ContactUs></ContactUs>}></Route>
       </Route>
