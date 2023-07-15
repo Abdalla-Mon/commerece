@@ -78,7 +78,7 @@
 
 footer {
   padding: 60px 0;
-  background-color: #f4a261;
+  background-color: #e9c46a;
   color: #264653;
   border-top: 1px solid #2a9d8f;
   border-bottom: 1px solid #264653;
@@ -149,14 +149,14 @@ footer form input:first-child {
 footer form .btn {
   color: #264653;
   margin-top: 10px;
-  background-color: #e9c46a;
+  background-color: #f4a261;
 }
 
 .mine {
   padding: 15px;
   text-align: center;
   color: #264653;
-  background-color: #f4a261;
+  background-color: #e9c46a;
 }
 .mine a {
   color: #deefff;
@@ -294,14 +294,14 @@ footer form .btn {
 .offers .offers-card-content .offer {
   position: relative;
   z-index: 1;
-  color: #264653;
+  color: #e9c46a;
 }
 .offers .offers-card-content::after {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #f4a261;
+  background-color: #264653;
   top: 0;
   left: 0;
   opacity: 0.6;
@@ -462,6 +462,9 @@ footer form .btn {
   overflow: hidden;
   margin-bottom: 20px;
   color: #e9c46a;
+  background-color: #2a9d8f;
+  border: none !important;
+  box-shadow: 3px 3px 6px 0;
 }
 .card .img-container {
   z-index: 20;
@@ -893,9 +896,9 @@ footer form .btn {
 .cart-page table {
   width: 100%;
   border: solid 1px;
-  color: #264653;
+  color: #e9c46a;
   width: 100%;
-  background-color: #f4a261;
+  background-color: #2a9d8f;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -994,7 +997,7 @@ footer form .btn {
   right: 0;
   padding: 6px 12px;
   color: #264653;
-  background-color: #2a9d8f;
+  background-color: #f4a261;
   border: none;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -1003,7 +1006,7 @@ footer form .btn {
   -o-transition: 0.3s;
 }
 .cart-total .cart-updater:hover {
-  background-color: #f4a261;
+  background-color: #e9c46a;
 }
 @media (min-width: 768px) {
   .cart-total {
@@ -1056,11 +1059,14 @@ footer form .btn {
   padding: 10px;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #2a9d8f;
+  background-color: #f4a261;
   border-radius: 12px;
   font-weight: bold;
   cursor: pointer;
   color: #264653;
+}
+.cart-remover:hover {
+  background-color: #e9c46a;
 }
 
 .checkout {

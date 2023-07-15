@@ -4,6 +4,10 @@
   overflow: hidden;
   margin-bottom: 20px;
   color: $teritary-color;
+  background-color: $secondary-color;
+  border: none !important;
+  box-shadow: 3px 3px 6px 0;
+
   .img-container {
     z-index: 20;
 

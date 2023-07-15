@@ -6,9 +6,9 @@
   table {
     width: 100%;
     border: solid 1px;
-    color: $primary-color;
+    color: $teritary-color;
     width: 100%;
-    background-color: $accent-color;
+    background-color: $secondary-color;
     text-transform: capitalize;
     @media (max-width: 767px) {
       border: none;
@@ -112,7 +112,7 @@
     right: 0;
     padding: 6px 12px;
     color: $primary-color;
-    background-color: $secondary-color;
+    background-color: $accent-color;
     border: none;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -120,7 +120,7 @@
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     &:hover {
-      background-color: $accent-color;
+      background-color: $teritary-color;
     }
   }
   @media (min-width: 768px) {
@@ -171,9 +171,12 @@
   margin-bottom: 5px;
   padding: 10px;
   width: fit-content;
-  background-color: $secondary-color;
+  background-color: $accent-color;
   border-radius: 12px;
   font-weight: bold;
   cursor: pointer;
   color: $primary-color;
+  &:hover {
+    background-color: $teritary-color;
+  }
 }

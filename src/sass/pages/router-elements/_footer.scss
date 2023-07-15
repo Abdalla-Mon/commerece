@@ -5,7 +5,7 @@ footer {
     text-align: center;
   }
   padding: 60px 0;
-  background-color: $accent-color;
+  background-color: $teritary-color;
   color: $primary-color;
   border-top: 1px solid $secondary-color;
   border-bottom: 1px solid $primary-color;
@@ -70,7 +70,7 @@ footer {
     .btn {
       color: $primary-color;
       margin-top: 10px;
-      background-color: $teritary-color;
+      background-color: $accent-color;
     }
   }
 }
@@ -78,7 +78,7 @@ footer {
   padding: 15px;
   text-align: center;
   color: $primary-color;
-  background-color: $accent-color;
+  background-color: $teritary-color;
   a {
     color: #deefff;
     &:hover {
