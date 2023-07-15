@@ -13,11 +13,11 @@ import { Autoplay, Navigation } from "swiper";
 
 export default function SwiperAuto() {
   const arr = [
-    "/imgs/client-logo-1.png",
-    "/imgs/client-logo-2.png",
-    "/imgs/client-logo-3.png",
-    "/imgs/client-logo-4.png",
-    "/imgs/client-logo-2.png",
+    "./imgs/client-logo-1.png",
+    "./imgs/client-logo-2.png",
+    "./imgs/client-logo-3.png",
+    "./imgs/client-logo-4.png",
+    "./imgs/client-logo-2.png",
   ];
   return (
     <>

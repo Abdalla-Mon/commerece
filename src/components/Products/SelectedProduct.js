@@ -2,14 +2,16 @@ import { useEffect, useState, useRef } from "react";
 import { Card } from "../Home page/SellerCard";
 import { sArr } from "../Home page/SellerCard";
 import { ShoppingBtn } from "../Home page/LandingPage";
+import newData from "../../storeObj.json";
 let cartMap = {};
 let cartArr = [];
 export function SelectedProduct() {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/storeObj.json")
-      .then((e) => e.json())
-      .then((ele) => setData(ele));
+    // fetch("/storeObj.json")
+    //   .then((e) => e.json())
+    //   .then((ele) => setData(ele));
+    setData(newData);
   }, []);
 
   let x;

@@ -5,9 +5,10 @@ import newData from "../../storeObj.json";
 export function BestSeller() {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("e-commerece/storeObj.json")
-      .then((e) => e.json())
-      .then((ele) => setData(ele));
+    // fetch("e-commerece/storeObj.json")
+    //   .then((e) => e.json())
+    //   .then((ele) => setData(ele));
+    setData(newData);
   }, []);
 
   let arr = data.filter((ele) => {

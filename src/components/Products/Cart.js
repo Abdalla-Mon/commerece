@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import newData from "../../storeObj.json";
 export function Cart() {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/storeObj.json")
-      .then((e) => e.json())
-      .then((ele) => setData(ele));
+    // fetch("/storeObj.json")
+    //   .then((e) => e.json())
+    //   .then((ele) => setData(ele));
+    setData(newData);
   }, []);
   let [n, nSeter] = useState(false);
   let cartArr;
