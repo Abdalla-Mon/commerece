@@ -1,12 +1,14 @@
 import { NavLink, Outlet } from "react-router-dom";
 import React, { useEffect, useState, useRef } from "react";
+import newData from "../../storeObj.json";
 
 export function Products() {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/storeObj.json")
-      .then((e) => e.json())
-      .then((ele) => setData(ele));
+    // fetch("/storeObj.json")
+    //   .then((e) => e.json())
+    //   .then((ele) => setData(ele));
+    setData(newData);
   }, []);
 
   let clicking = useRef(null);
