@@ -8,7 +8,7 @@
     border: solid 1px;
     color: $primary-color;
     width: 100%;
-    background-color: #594545;
+    background-color: $accent-color;
     text-transform: capitalize;
     @media (max-width: 767px) {
       border: none;
@@ -171,7 +171,7 @@
   margin-bottom: 5px;
   padding: 10px;
   width: fit-content;
-  background-color: #9e7676;
+  background-color: $secondary-color;
   border-radius: 12px;
   font-weight: bold;
   cursor: pointer;

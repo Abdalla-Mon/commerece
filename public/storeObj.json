@@ -7,7 +7,7 @@
     "bestSaler": true,
     "category": "accessory",
     "maincategory": "women",
-    "image": "./e-commerece/imgs/product-accessory1.jpg"
+    "image": "/imgs/product-accessory1.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "category": "accessory",
     "bestSaler": true,
     "maincategory": "women",
-    "image": "./imgs/product-accessory2.jpg"
+    "image": "/imgs/product-accessory2.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "bestSaler": true,
     "category": "accessory",
     "maincategory": "women",
-    "image": "./imgs/product-accessory3.jpg"
+    "image": "/imgs/product-accessory3.jpg"
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "bag",
     "maincategory": "women",
-    "image": "./imgs/product-bag1.jpg"
+    "image": "/imgs/product-bag1.jpg"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "bag",
     "maincategory": "women",
-    "image": "./imgs/product-bag2.jpg"
+    "image": "/imgs/product-bag2.jpg"
   },
   {
     "id": 6,
@@ -55,7 +55,7 @@
     "bestSaler": true,
     "category": "bag",
     "maincategory": "women",
-    "image": "./imgs/product-bag3.jpg"
+    "image": "/imgs/product-bag3.jpg"
   },
   {
     "id": 7,
@@ -64,7 +64,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "hoddie",
     "maincategory": "men",
-    "image": "./imgs/product-hoodie1.jpg"
+    "image": "/imgs/product-hoodie1.jpg"
   },
   {
     "id": 8,
@@ -74,7 +74,7 @@
     "category": "hoddie",
     "bestSaler": true,
     "maincategory": "men",
-    "image": "./imgs/product-hoodie2.jpg"
+    "image": "/imgs/product-hoodie2.jpg"
   },
   {
     "id": 9,
@@ -84,7 +84,7 @@
     "category": "hoddie",
     "bestSaler": true,
     "maincategory": "men",
-    "image": "./imgs/product-hoodie3.jpg"
+    "image": "/imgs/product-hoodie3.jpg"
   },
   {
     "id": 10,
@@ -93,7 +93,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "hoddie",
     "maincategory": "men",
-    "image": "./imgs/product-hoodie4.jpg"
+    "image": "/imgs/product-hoodie4.jpg"
   },
   {
     "id": 11,
@@ -102,7 +102,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "jeans",
     "maincategory": "men",
-    "image": "./imgs/product-m-jeans1.jpg"
+    "image": "/imgs/product-m-jeans1.jpg"
   },
   {
     "id": 12,
@@ -113,7 +113,7 @@
     "category": "jeans",
     "maincategory": "men",
     "bestSaler": true,
-    "image": "./imgs/product-m-jeans2.jpg"
+    "image": "/imgs/product-m-jeans2.jpg"
   },
   {
     "id": 13,
@@ -123,7 +123,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "jeans",
     "maincategory": "men",
-    "image": "./imgs/product-m-jeans3.jpg"
+    "image": "/imgs/product-m-jeans3.jpg"
   },
   {
     "id": 14,
@@ -132,7 +132,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "jeans",
     "maincategory": "men",
-    "image": "./imgs/product-m-jeans4.jpg"
+    "image": "/imgs/product-m-jeans4.jpg"
   },
   {
     "id": 15,
@@ -141,7 +141,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "shoes",
     "maincategory": "men",
-    "image": "./imgs/sports-shoe1.jpg"
+    "image": "/imgs/sports-shoe1.jpg"
   },
   {
     "id": 16,
@@ -150,7 +150,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "shoes",
     "maincategory": "men",
-    "image": "./imgs/sports-shoe2.jpg"
+    "image": "/imgs/sports-shoe2.jpg"
   },
   {
     "id": 17,
@@ -159,7 +159,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "shoes",
     "maincategory": "men",
-    "image": "./imgs/sports-shoe3.jpg"
+    "image": "/imgs/sports-shoe3.jpg"
   },
   {
     "id": 18,
@@ -168,7 +168,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "shoes",
     "maincategory": "men",
-    "image": "./imgs/sports-shoe4.jpg",
+    "image": "/imgs/sports-shoe4.jpg",
     "bestSaler": true
   },
   {
@@ -179,7 +179,7 @@
     "category": "shoes",
     "bestSaler": true,
     "maincategory": "men",
-    "image": "./imgs/sports-shoe5.jpg"
+    "image": "/imgs/sports-shoe5.jpg"
   },
   {
     "id": 20,
@@ -188,7 +188,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "tshirt",
     "maincategory": "men",
-    "image": "./imgs/tshirt1.jpg"
+    "image": "/imgs/tshirt1.jpg"
   },
   {
     "id": 21,
@@ -197,7 +197,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "tshirt",
     "maincategory": "men",
-    "image": "./imgs/tshirt2.jpg",
+    "image": "/imgs/tshirt2.jpg",
     "bestSaler": true
   },
   {
@@ -207,7 +207,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "tshirt",
     "maincategory": "men",
-    "image": "./imgs/tshirt3.jpg"
+    "image": "/imgs/tshirt3.jpg"
   },
   {
     "id": 23,
@@ -217,7 +217,7 @@
     "category": "tshirt",
     "maincategory": "men",
     "bestSaler": true,
-    "image": "./imgs/tshirt4.jpg"
+    "image": "/imgs/tshirt4.jpg"
   },
   {
     "id": 24,
@@ -226,7 +226,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "tshirt",
     "maincategory": "men",
-    "image": "./imgs/tshirt5.jpg"
+    "image": "/imgs/tshirt5.jpg"
   },
   {
     "id": 25,
@@ -235,7 +235,7 @@
     "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatum accusamus necessitatibus earum fugiat delectus eveniet cum est accusantium ex, ipsa officia ea expedita voluptatibus voluptas tempore Officia, tenetur minus.",
     "category": "tshirt",
     "maincategory": "men",
-    "image": "./imgs/tshirt6.jpg"
+    "image": "/imgs/tshirt6.jpg"
   },
   {
     "id": 26,
@@ -245,6 +245,6 @@
     "category": "shoes",
     "bestSaler": true,
     "maincategory": "men",
-    "image": "./imgs/sports-shoe5.jpg"
+    "image": "/imgs/sports-shoe5.jpg"
   }
 ]
