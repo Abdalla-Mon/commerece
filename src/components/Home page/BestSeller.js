@@ -28,7 +28,6 @@ export function BestSeller() {
                   arr={card}
                   key={card.id}
                   cont={<ShoppingBtn content="See More Products"></ShoppingBtn>}
-                  s="../"
                 ></Card>
               );
             })}
