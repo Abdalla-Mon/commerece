@@ -20,7 +20,7 @@ export function Landing() {
             </div>
           </div>
           <div className="landing-img">
-            <img src="../imgs/landing.png" alt={altText}></img>
+            <img src="./imgs/landing.png" alt={altText}></img>
           </div>
         </div>
       </section>

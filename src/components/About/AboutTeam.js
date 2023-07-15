@@ -1,27 +1,27 @@
 export function AboutTeam() {
   let array = [
     {
-      img: "/imgs/team1.png",
+      img: "./imgs/team1.png",
       heading: "Ahmed Refaat",
       job: "Founder - CEO",
     },
     {
-      img: "/imgs/team2.png",
+      img: "./imgs/team2.png",
       heading: "Mohamed Farouq",
       job: "COO",
     },
     {
-      img: "/imgs/team3.png",
+      img: "./imgs/team3.png",
       heading: "Yousef Magdy",
       job: "Marketing Head",
     },
     {
-      img: "/imgs/team3.png",
+      img: "./imgs/team3.png",
       heading: "Ayman refaat",
       job: "Lead Developer      ",
     },
     {
-      img: "/imgs/team1.png",
+      img: "./imgs/team1.png",
       heading: "Ahmed Medhat",
       job: "Intern Designer      ",
     },

@@ -14,7 +14,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Navbar></Navbar>} loader={<Loader></Loader>}>
-        <Route index element={<Home></Home>}></Route>
+        <Route path="home" element={<Home></Home>}></Route>
         <Route path="products/*" element={<Products></Products>}>
           <Route path={"page-1"} element={<Page1></Page1>}></Route>
           <Route path={"page-2"} element={<Page2></Page2>}></Route>
