@@ -42,10 +42,6 @@ function CheckForm() {
           e.preventDefault();
           shower(true);
           window.localStorage.clear();
-          window.setTimeout(() => {
-            window.location.href = "/";
-          }, 2000);
-          window.localStorage.setItem("check", true);
         }}
       >
         {show ? (
